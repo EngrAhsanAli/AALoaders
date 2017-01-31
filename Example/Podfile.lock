@@ -1,0 +1,16 @@
+PODS:
+  - AALoaders (0.1.0)
+
+DEPENDENCIES:
+  - AALoaders (from `../`)
+
+EXTERNAL SOURCES:
+  AALoaders:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AALoaders: 159a27209448b7c606d5c4d27afd3a18ded5c6d0
+
+PODFILE CHECKSUM: 8c6e6a383650079d8b8eeb833762ae25c641cabf
+
+COCOAPODS: 1.2.0.beta.3

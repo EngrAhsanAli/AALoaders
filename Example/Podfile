@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'AALoaders_Example' do
+    pod 'AALoaders', :path => '../'
+    
+    
+end

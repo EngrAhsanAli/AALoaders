@@ -1,0 +1,6 @@
+framework module AALoaders {
+  umbrella header "AALoaders-umbrella.h"
+
+  export *
+  module * { export * }
+}

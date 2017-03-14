@@ -108,7 +108,7 @@ github "EngrAhsanAli/AALoaders" "master"
 ```
 
 Then import the library in all files where you use it:
-```
+```swift
 import AALoaders
 ```
 
@@ -146,7 +146,7 @@ If you prefer not to use either of the above mentioned dependency managers, you 
 
 
 **Usage**:
-```
+```swift
 let options = AANavigationOptions()
 // Configure options
 //
@@ -189,7 +189,7 @@ self.navigationController?.aa_hideLoader(false)
 - middle
 
 **Usage**:
-```
+```swift
 let options = AAButtonOptions()
 // Configure options
 //
@@ -218,7 +218,7 @@ self.button.aa_toggleLoader()
 | `color`            | `UIColor`        | Activity indicator color                |
 
 **Usage**:
-```
+```swift
 let options = AAImageOptions()
 // Configure options
 //
@@ -258,7 +258,7 @@ self.imageView.aa_setImage(string: <URL_HERE>)
 
 
 **Usage**:
-```
+```swift
 let options = AADialogOptions()
 // Configure options
 //

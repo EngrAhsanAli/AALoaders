@@ -97,10 +97,10 @@ class DemoAADialogLoader: UIViewController {
         options.backgroundColor = bgColor
         options.cancelColor = .darkGray
         
-        let titleAttributes = [ NSFontAttributeName: UIFont(name: "Chalkduster", size: 18.0)! ]
+        let titleAttributes = [ NSAttributedString.Key.font: UIFont(name: "Chalkduster", size: 18.0)! ]
         options.titleAttributes = titleAttributes
         
-        let messageAttributes: Dictionary = [NSFontAttributeName: UIFont(name: "Avenir-Light", size: 13.0)!]
+        let messageAttributes: Dictionary = [NSAttributedString.Key.font: UIFont(name: "Avenir-Light", size: 13.0)!]
         options.messageAttributes = messageAttributes
         
         showLoader(options)

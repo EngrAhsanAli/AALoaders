@@ -94,7 +94,7 @@ class AANavigationLoader: NSObject {
     /// Selector for update progress after specified time interval
     ///
     /// - Parameter timer: timer instance
-    func updateProgressWithTime(timer: Timer) {
+    @objc func updateProgressWithTime(timer: Timer) {
         
         // Should stop the progress update when reach the max progress allowed
         guard progressBarView.progress <= options.maxProgress else {

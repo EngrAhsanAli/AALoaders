@@ -13,7 +13,7 @@ extension UIView {
     
     /// Adds indicator in given view
     var activityIndicator: UIActivityIndicatorView {
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        let indicator = UIActivityIndicatorView(style: .whiteLarge)
         indicator.center = CGPoint(x: bounds.midX, y: bounds.midY)
         indicator.sizeToFit()
         return indicator
@@ -32,7 +32,7 @@ extension UIView {
     /// Adds UIBlurEffect for given view
     ///
     /// - Parameter style: UIBlurEffectStyle style
-    func applyVisualEffect(_ style: UIBlurEffectStyle) {
+    func applyVisualEffect(_ style: UIBlurEffect.Style) {
         guard let visualEffectView = self as? UIVisualEffectView else {
             subviews.forEach({$0.applyVisualEffect(style)})
             return

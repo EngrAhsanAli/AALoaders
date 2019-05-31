@@ -25,9 +25,9 @@ open class AADialogOptions: NSObject {
     
     open var message: String?
     
-    open var titleAttributes: Dictionary<String, Any>?
+    open var titleAttributes: [NSAttributedString.Key : Any]?
     
-    open var messageAttributes: Dictionary<String, Any>?
+    open var messageAttributes: [NSAttributedString.Key : Any]?
     
     open var loaderColor: UIColor = .darkGray
     
@@ -41,7 +41,7 @@ open class AADialogOptions: NSObject {
     
     open var shadowColor: UIColor?
     
-    open var blurEffect: UIBlurEffectStyle?
+    open var blurEffect: UIBlurEffect.Style?
     
     open var backgroundColor: UIColor?
     
